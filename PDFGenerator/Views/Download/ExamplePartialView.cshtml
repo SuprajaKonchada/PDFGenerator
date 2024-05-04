@@ -1,0 +1,17 @@
+﻿@model PDFGenerator.Models.Employee
+@{
+    // The layout is set to null, indicating that this view does not use a layout file.
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Details</title>
+</head>
+<body>
+    <h1>Employee Details</h1>
+    <p>Name: @Model.Name</p>
+    <p>Employee ID: @Model.EmployeeID</p>
+    <p>Company: @Model.Company</p>
+</body>
+</html>
